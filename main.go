@@ -8,7 +8,9 @@ import (
 
 func main() {
 	fmt.Println("Start programing")
-	solution.FindMissing()
+	// solution.FindMissing()
+	// solution.ClosestPrimes()
+	solution.ClosestPrimes()
 }
 
 func permute(nums []int) [][]int {
