@@ -10,7 +10,8 @@ func main() {
 	fmt.Println("Start programing")
 	// solution.FindMissing()
 	// solution.ClosestPrimes()
-	solution.ClosestPrimes()
+	//solution.ClosestPrimes()
+	solution.CanCompleteCircuit()
 }
 
 func permute(nums []int) [][]int {
