@@ -19,7 +19,7 @@ func minSubArrayLen(target int, nums []int) int {
 	}
 	sumV := 0
 	for _, v := range nums {
-		if target == v {
+		if target >= v {
 			return 1
 		}
 		sumV += v

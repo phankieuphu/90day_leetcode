@@ -11,7 +11,7 @@ func main() {
 	// solution.FindMissing()
 	// solution.ClosestPrimes()
 	//solution.ClosestPrimes()
-	solution.MinimunSize()
+	solution.TwoSum()
 }
 
 func permute(nums []int) [][]int {
