@@ -11,7 +11,7 @@ func main() {
 	// solution.FindMissing()
 	// solution.ClosestPrimes()
 	//solution.ClosestPrimes()
-	solution.CanCompleteCircuit()
+	solution.MinimunSize()
 }
 
 func permute(nums []int) [][]int {
